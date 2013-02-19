@@ -7,10 +7,12 @@
     "license": "LGPL",
     "authors": [
         {
-            "name": "Dietrich Ayala"
+            "name": "Dietrich Ayala",
+            "email": "dietrich@ganx4.com"
         },
         {
-            "name": "Scott Nichol"
+            "name": "Scott Nichol",
+            "email": "snichol@users.sourceforge.net"
         }
     ],
     "require": {
