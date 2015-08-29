@@ -862,15 +862,7 @@ class nusoap_base {
     * @access public
     */
 	function getmicrotime() {
-		if (function_exists('gettimeofday')) {
-			$tod = gettimeofday();
-			$sec = $tod['sec'];
-			$usec = $tod['usec'];
-		} else {
-			$sec = time();
-			$usec = 0;
-		}
-		return strftime('%Y-%m-%d %H:%M:%S', $sec) . '.' . sprintf('%06d', $usec);
+		return microtime();
 	}
 
 	/**
