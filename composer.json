@@ -1,6 +1,5 @@
 {
-    "name": "developagility/nusoap",
-    "type": "library",
+    "name": "ssx/nusoap",
     "description": "NuSOAP - SOAP Toolkit for PHP",
     "keywords": ["soap", "NuSOAP"],
     "homepage": "http://github.com/developagility/NuSOAP",
